@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+main(){
+string name;
+cout << " Enter Your Name.. ";
+cin >> name;
+int marks1;
+cout << " Enter Subject 01 Marks.. ";
+cin >> marks1;
+int marks2;
+cout << " Enter Subject 02 Marks.. ";
+cin >> marks2;
+int marks3;
+cout << " Enter Subject 03 Marks.. ";
+cin >> marks3;
+int marks4;
+cout << " Enter Subject 04 Marks.. ";
+cin >> marks4;
+int marks5;
+cout << " Enter Subject 05 Marks.. ";
+cin >> marks5;
+int percentage;
+percentage=(marks1+marks2+marks3+marks4+marks5)*100/500;
+cout<<"Percentage.." <<percentage;
+}
+
